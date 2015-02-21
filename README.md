@@ -1,10 +1,11 @@
-i# object-tree
+# object-tree
 
 ## Init
 
-`npm install
+'''
+ npm install
  npm start
-`
+'''
 
 ## Usage
 
