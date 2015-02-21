@@ -42,10 +42,10 @@ var TreeItem = React.createClass({
 		var level = treeItem && treeItem.level || 0;
 
 		if (showToggler) {
-			toggler = (<button className="btn btn-xs toggle" onClick={this._toggle}><i className={cx({
+			toggler = (<button className="btn btn-xs btn btn-warning toggle" onClick={this._toggle}><i className={cx({
 						"glyphicon": 1,
-						"glyphicon-plus": treeItem.collapsed,
-						"glyphicon-minus": !treeItem.collapsed,
+						"glyphicon-triangle-right": treeItem.collapsed,
+						"glyphicon-triangle-bottom": !treeItem.collapsed,
 					})}></i></button>
 			)
 		}
